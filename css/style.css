@@ -1,0 +1,21 @@
+
+
+
+.box-shadow>div:hover {
+    box-shadow: 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+.lista>li:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:580px) {
+    .order {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
